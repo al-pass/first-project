@@ -1,0 +1,85 @@
+@keyframes header-icon-transformation {
+  0% { transform: rotate(-10deg);}
+  50% { transform: rotate(10deg);}
+  100% { transform: rotate(-10deg);}
+}
+.page{
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header{
+  margin:0;
+}
+.header__сontent{
+  display: flex;
+  min-width:1440px;
+  height: 120px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content_background-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../images/header-background.png);
+}
+
+.header__call-frame{
+  box-sizing: border-box;
+  margin:0;
+  padding:10px;
+  transition: transform .1s  ease-out;
+}
+
+.header__call-frame:hover{
+  transform: scale(1.05);
+}
+
+.call-frame_image{
+  background-image: url(../images/call-frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:225px;
+  height: 54px;
+  border:none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.call-frame_font{
+  text-align: center;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.header__land-nav{
+  margin-top:10px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:white;
+}
+.land-nav_font{
+  text-decoration: none;
+  line-height: 32px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #00004D;
+}
+
+.contact-information_icon{
+  margin:0 10px 0 0;
+  transition: all;
+  color: #00004D;
+}
+.contact-information_icon:hover{
+  animation: header-icon-transformation 0.3s linear;
+}
