@@ -1,10 +1,73 @@
-/* style.css */
+.lead{
 
-body {
-    margin: 0;
+}
+.lead__image{
+    border: 1px red solid;
+
+}
+.lead__image_kalegin{
+    width:100%;
+    min-width: 320px;
+    max-width: 984px;
+    position: relative;
+    background-image: url(../../images/kalegin-michail-179870-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px red solid;
+}  
+.lead_vector_absolute{
+    position: absolute;
+    top:10%;
+    left:10%;
+    background-image: url(../../images/Block4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border: 1px red solid;
+}
+.lead__title{
+    width:60%;
+    margin:0 auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+/* or 104% */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.lead__subtitle{
+    width:40%;
+    margin:0 auto;
+    margin-top: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+/* or 120% */
+
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.header {
-    height: 100px;
-    background-color: #000;
-} 
+.lead__caption{
+    margin:0;
+    margin-top:8px;
+    padding-top: 200px
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+/* identical to box height, or 140% */
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+

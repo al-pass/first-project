@@ -1,0 +1,32 @@
+.content{ 
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  max-width: 1280px;
+
+  border: none;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+};
+}
+
+@media screen and (max-width:1024px) {
+      .content{
+        max-width: 1024px;    
+      }  
+}
+
+@media screen and (max-width:768px) {
+  .content{
+    max-width: 768px;    
+  }  
+}
+
+@media screen and (max-width:320px) {
+  .content{
+    max-width: 320px;    
+  }  
+}
