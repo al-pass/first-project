@@ -1,0 +1,14 @@
+.place__image{
+    box-sizing: border-box;
+    max-width: 460px;
+    grid-area: img;
+    width: 100%;
+}
+
+@media screen and (max-width:633px){
+    .place__image{
+        max-width: 633px;
+        grid-area: img;
+        width: 100%;
+    }
+}

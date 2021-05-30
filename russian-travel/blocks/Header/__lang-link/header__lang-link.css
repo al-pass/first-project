@@ -14,7 +14,7 @@
     margin:0;
 }
 /*fix first of a child. it should be linked to language*/
-.header__lang-link:first-of-type{
+.header__lang-link:lang(ru){
     text-decoration-line: underline;
 }
 .header__lang-link:hover{
@@ -23,15 +23,11 @@
 
 @media screen and (max-width:320px){
     .header__lang-link{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 20px;
 /* identical to box height, or 111% */
 
-    text-align: right;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 
     color: #FFFFFF;}
 }

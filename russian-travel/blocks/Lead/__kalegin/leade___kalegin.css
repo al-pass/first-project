@@ -1,10 +1,33 @@
 .lead__kalegin{
-    width:100%;
-    max-width: 984px;
-    padding-bottom: calc(615/984*100%);
-    position: relative;
     background-image: url(../../../images/lead/kalegin-michail-179870-unsplash.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+    max-width: 984px;
+    box-sizing: border-box;
+    padding-bottom: calc(615/984*100%);
+    position: relative;
+    margin:0;
+    
 }  
+@media screen and (max-width: 1024px){
+        .lead__kalegin{
+            margin: 56px 48px 0;
+        }
+    }
+    
+    @media screen and (max-width: 768px){
+        .lead__kalegin{
+            max-width: minmax(320px, 984px);
+            margin: 56px 0 0;
+        }
+    }
+    
+    @media screen and (max-width: 320px){
+        .lead__kalegin{
+            width:100%;
+            max-width: 984px;
+            box-sizing: border-box;
+            margin: 40px 0 0;
+        }
+    }

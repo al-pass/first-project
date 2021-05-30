@@ -1,5 +1,0 @@
-.place__paragraphs{
-    grid-area: paragraph;
-    display:flex;
-    flex-direction: column;
-}

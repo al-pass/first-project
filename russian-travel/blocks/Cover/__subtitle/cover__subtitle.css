@@ -19,17 +19,18 @@
 
 @media screen and (max-width: 633px){
     .cover__subtitle{
-        margin-top: calc(32/480*100%);
-        font-size: 3vw;
-        line-height: 1em;
-        width: 60%;
+        margin-top: calc(16/320*100%);
+        font-size: 15px;
+        line-height: normal;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 320px){
 
     .cover__subtitle{
-        max-width:228px;
+        width:100%;
+        max-width:288px;
         margin: 16px 0 0;
         font-size: 14px;
         line-height: 16px;
