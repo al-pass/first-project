@@ -16,7 +16,7 @@
     .lead__title{ 
         max-width:calc(720/768*100%);
         font-size: 12vw;
-        line-height: 12vh;
+        line-height: normal;
     }
 }
 
